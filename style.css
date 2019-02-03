@@ -29,6 +29,7 @@ grid-template-columns: 200px 1fr;
 
 
 }
+body { color : skyblue;}
 
 
 #grid #article {padding-left: 20px;}
