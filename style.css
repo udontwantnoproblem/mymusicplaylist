@@ -1,16 +1,18 @@
 body { margin: 10px;}
 
 h1,h2{
-  font-size: 35px;
+
   font-style: oblique;
 }
 
-h1{ border-bottom: 1px solid black;
+h1{
+  font-size: 57px;
+  border-bottom: 1px solid black;
   margin :0;
   padding: 20px;
 
   }
-ol,a {font-size: 20px;
+ol {font-size: 20px;
   font-family: monospace;
 }
 ol { color: blue;
@@ -33,3 +35,15 @@ body { color : skyblue;}
 
 
 #grid #article {padding-left: 20px;}
+
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
